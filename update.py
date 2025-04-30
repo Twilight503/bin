@@ -1,10 +1,11 @@
+
 import gdown
 import zipfile
 import os
 
-file_id = "1ykvdJv9t5w6ct-ndPEteXkNre2pCZ167"
+url = https://drive.google.com/uc?id=1zjMHOEJ5ujiFN_AgFCr7euEFLHNaqneE&export=download
+
 destination = "update.zip"
-url = f"https://drive.google.com/uc?id={file_id}"
 
 gdown.download(url, destination, quiet=False)
 
