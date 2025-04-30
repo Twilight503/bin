@@ -3,7 +3,7 @@ import gdown
 import zipfile
 import os
 
-url = https://drive.google.com/uc?id=1NZAmopDcmoJXWJhJk-KEIRyrsrXKC8MZ&export=download
+url = "https://drive.google.com/uc?id=1tDdTft3_EGy_ui8qCCu5jg8wq5xfz4IO&export=download"
 
 destination = "update.zip"
 
