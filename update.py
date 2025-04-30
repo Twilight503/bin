@@ -32,7 +32,7 @@ def save_response_content(response, destination, chunk_size=32768):
 
 # ==== USAGE ====
 
-file_id = "13hrk3JvxoCQ7Pu3yh2kp-q42IJ8Sp6YL"
+file_id = "1ykvdJv9t5w6ct-ndPEteXkNre2pCZ167"
 zip_destination = "update.zip"
 
 updated = download_file_from_google_drive(file_id, zip_destination)
