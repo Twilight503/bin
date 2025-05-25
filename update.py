@@ -4,7 +4,7 @@ import zipfile
 import os
 import ctypes
 
-url = "https://drive.google.com/uc?id=1iQ66JgdxJQHEePVGwZQvuaveAR0I6aVR&export=download"
+url = "https://drive.google.com/uc?id=1l4QWTzVmP7W8qxxGeJWs7JgABq9BNzH4&export=download"
 
 destination = "update.zip"
 
